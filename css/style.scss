@@ -3162,3 +3162,223 @@ h2{
 	}
 }
 // ----end about----
+// ----start payment----
+.payment {
+	background: url("../img/bg_payment.png") right bottom no-repeat;
+	padding-bottom: 100px;
+}
+@media (max-width:767px) {
+	.payment{
+		background: none;
+	}
+}
+.payment_wrap {
+}
+.payment_title {
+	margin-bottom: 30px;
+	h2{
+		text-transform: none;
+	}
+}
+.payment_content {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+@media (max-width:767px){
+	.payment_content{
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+.payment_info {
+}
+.payment_info_list {
+	margin-bottom: 45px;
+}
+@media (max-width:575px) {
+	.payment_info_list{
+		margin-bottom: 30px;
+	}
+}
+.payment_info_list_item {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 45px;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 4px;
+	padding: 5px;
+}
+@media (max-width:575px) {
+	.payment_info_list_item{
+		margin-bottom: 30px;
+	}
+}
+.payment_info_list_item_pic {
+	width: 45px;
+	margin-right: 35px;
+}
+.payment_info_list_item_content {
+}
+.payment_info_list_item_title {
+	margin-bottom: 10px;
+	p{
+		font-size: 22px;
+		font-weight: 700;
+		line-height: 33px;
+	}
+}
+@media (max-width:575px) {
+	.payment_info_list_item_title{
+		p{
+			font-size: 18px;
+			line-height: 1.2;
+		}
+	}
+}
+.payment_info_list_item_text {
+	p{
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 27px;
+	}
+}
+@media (max-width:575px) {
+	.payment_info_list_item_text{
+		p{
+			font-size: 14px;
+			line-height: 1.2;
+		}
+	}
+}
+.payment_info_btns {
+} 
+.payment_info_btn {
+	max-width: 292px;
+	width: 100%;
+	height: 65px;
+}
+@media (max-width:767px) {
+.payment_info_btn{
+	margin: 0 auto;
+}
+}
+.payment_detail {
+}
+.payment_detail_content {
+	max-width: 370px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 31px 24px 36px;
+	background-color: #fff;
+	box-shadow: 0px 106px 65px 0px #4A4A4A2E;
+	border-radius: 4px;
+}
+@media (max-width:767px) {
+	.payment_detail_content{
+		box-shadow: 0px 15.806306838989258px 46.7004508972168px 0px #75757536;
+	}
+}
+.payment_detaill_content_title {
+	p{
+		font-size: 23px;
+		font-weight: 700;
+		line-height: 35px;
+		text-transform: uppercase;
+		text-align: center;
+	}
+}
+@media (max-width:575px) {
+	.payment_detaill_content_title{
+		p{
+			font-size: 20px;
+			line-height: 1.2;
+		}
+	}
+}
+.payment_detail_content_subtitle {
+	max-width: 272px;
+	width: 100%;
+	margin: 0 auto 27px;
+	p{
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 17px;
+		text-align: center;
+	}
+}
+@media (max-width:575px) {
+	.payment_detail_content_subtitle{
+		p{
+			font-size: 12px;
+			line-height: 1.2;
+		}
+	}
+}
+.payment_detail_form {
+}
+.payment_detail_form_name {
+	width: 100%;
+	height: 51px;
+	margin-bottom: 13px;
+	input {
+		width: 100%;
+		height: 100%;
+		border-radius: 4px;
+		padding-left: 20px;
+		background-color: #F1F0F0;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 17px;
+	}
+}
+@media (max-width:575px){
+	.payment_detail_form_name{
+		input{
+			font-size: 12px;
+			line-height: 1.2;
+		}
+	}
+}
+.payment_detail_form_tel {
+	width: 100%;
+	height: 51px;
+	margin-bottom: 25px;
+	input {
+				width: 100%;
+		height: 100%;
+		border-radius: 4px;
+		padding-left: 20px;
+		background-color: #F1F0F0;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 17px;
+	}
+}
+@media (max-width:575px){
+	.payment_detail_form_tel{
+		input{
+			font-size: 12px;
+			line-height: 1.2;
+		}
+	}
+}
+.payment_detail_form_btns {
+	margin-bottom: 27px;
+}
+.payment_detail_form_btn {
+	width: 100%;
+	height: 61px;
+}
+.payment_detail_pd {
+	p, a {
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 15px;
+		text-align: center;
+	}
+	a{
+		text-decoration: underline;
+		display: inline-block;
+	}
+}
+// ----end payment----
