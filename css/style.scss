@@ -3866,3 +3866,151 @@ h2{
 	}
 }
 // ----end faq----
+// start garantees----
+.garantees {
+	margin-bottom: 127px;
+}
+@media (max-width:575px) {
+	.garantees{
+		margin-bottom: 100px;
+	}
+}
+.garantees_wrap {
+}
+.garantees_title {
+	margin-bottom: 27px;
+	h2{
+		text-transform: none;
+	}
+}
+.garantees_content {
+	display: grid;
+	grid-template-columns: 8fr 4fr;
+	gap: 20px; 
+}
+@media (max-width:991px) {
+	.garantees_content{
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+.garantees_text {
+	p{
+		margin-bottom: 30px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+	}
+}
+@media (max-width:575px) {
+	.garantees_text{
+		p{
+			font-size: 14px;
+			line-height: 1.2;
+			margin-bottom: 25px;
+		}
+	}
+}
+.garantees_detail {
+}
+@media (max-width:991px) {
+	.garantees_detail{
+		display: none;
+	}
+}
+.garantees_detail_content {
+	max-width: 370px;
+	width: 100%;
+	padding: 31px 24px 36px;
+	background-color: #fff;
+	border-radius: 4px;
+	margin: 0 auto;
+}
+.garantees_detail_content_title {
+	p{
+		font-size: 23px;
+		font-weight: 700;
+		line-height: 35px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
+.garantees_detail_content_subtitle {
+	margin-bottom: 27px;
+	p{
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 17px;
+		text-align: center;
+	}
+}
+.garantees_detail_form {
+}
+.garantees_detail_form_name {
+	width: 100%;
+	height: 51px;
+	margin-bottom: 13px;
+	input {
+		width: 100%;
+		height: 100%;
+		border-radius: 4px;
+		padding-left: 20px;
+		background-color: #F1F0F0;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 17px;
+	}
+}
+@media (max-width:575px){
+	.garantees_detail_form_name{
+		input{
+			font-size: 12px;
+			line-height: 1.2;
+		}
+	}
+}
+.garantees_detail_form_tel {
+	width: 100%;
+	height: 51px;
+	margin-bottom: 25px;
+	input {
+				width: 100%;
+		height: 100%;
+		border-radius: 4px;
+		padding-left: 20px;
+		background-color: #F1F0F0;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 17px;
+	}
+}
+@media (max-width:575px){
+	.garantees_detail_form_tel{
+		input{
+			font-size: 12px;
+			line-height: 1.2;
+		}
+	}
+}
+.garantees_detail_form_btns {
+}
+.garantees_detail_form_btn {
+	width: 100%;
+	height: 61px;
+	margin-bottom: 27px;
+}
+.garantees_detail_pd {
+	p, a {
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 15px;
+		text-align: center;
+	}
+	a{
+		text-decoration: underline;
+		display: inline-block;
+	}
+}
+// end garantees----
