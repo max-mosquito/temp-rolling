@@ -4448,3 +4448,43 @@ h2{
 	}
 }
 // ----end single_post---
+// ----start page404----
+.page404 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 150px;
+	padding-bottom: 180px;
+}
+@media (max-width:575px) {
+	.page404{
+		padding: 50px 0;
+	}
+}
+.page404_wrap {
+	padding: 0 30px;
+}
+.page404_title {
+	margin-bottom: 10px;
+	h2{
+		text-transform: lowercase;
+		text-align: center;
+	}
+}
+.page404_pic {
+	max-width: 334px;
+	width: 100%;
+	margin-bottom: 70px;
+	img{
+		width: 100%;
+	}
+}
+.page404_btns {
+}
+.page404_btn {
+	max-width: 265px;
+	width: 100%;
+	height: 65px;
+	margin: 0 auto;
+}
+// ----end page404----
