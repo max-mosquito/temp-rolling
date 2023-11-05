@@ -3,8 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>ТЭМП Сталь Оплата</title>
-   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <title>ТЭМП Сталь Личный кабинет</title>
    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -121,113 +120,174 @@
       </nav>
    </header>
    <!-- ----end header---- -->
-   <!-- ----start breadcrumbs---- -->
-   <section class="breadcrumbs">
-      <div class="breadcrumbs_wrap wrap">
-         <div class="breadcrumbs_content">
-            <ul>
-               <li><a href="index.html">Главная</a></li>
-               <li>Оплата</li>
-            </ul>
+   <!-- ----start lk---- -->
+   <section class="lk">
+      <div class="lk_wrap wrap">
+         <div class="lk_content">
+            <div class="lk_content_profile">
+               <div class="lk_content_profile_title">
+                  <h2>Профиль</h2>
+               </div>
+               <div class="lk_content_profile_item">
+                  <p class="lk_content_profile_item_label">Имя</p>
+                  <p class="lk_content_profile_item_data">Алексей</p>
+               </div>
+               <div class="lk_content_profile_item">
+                  <p class="lk_content_profile_item_label">Email</p>
+                  <p class="lk_content_profile_item_data">alex@ya.ru</p>
+               </div>
+               <div class="lk_content_profile_item">
+                  <p class="lk_content_profile_item_label">Телефон</p>
+                  <p class="lk_content_profile_item_data">+7 900 900-89-89</p>
+               </div>
+            </div>
+            <div class="lk_content_orders">
+               <div class="lk_content_orders_title">
+                  <h2>Ваши заказы:</h2>
+               </div>
+               <div class="lk_content_orders_accordion">
+                  <div class="lk_content_orders_accordion_label">
+                     <p>Заявка от 15.09.2023</p>
+                  </div>
+                  <div class="lk_content_orders_accordion_item">
+                     <div class="lk_content_orders_accordion_header active">
+                        <p class="lk_content_orders_accordion_header_type"><span class="lk_order lk_order_wait"></span>Ожидает оплаты</p>
+                        <p class="lk_content_orders_accordion_header_more">Подробнее</p>
+                     </div>
+                     <div class="lk_content_orders_accordion_content active">
+                        <div class="lk_content_orders_accordion_content_rows">
+                           <div class="lk_content_orders_accordion_content_row">
+                              <div class="lk_content_orders_accordion_content_row_pic">
+                                 <img src="img/food-1.png" alt=" ">
+                              </div>
+                              <div class="lk_content_orders_accordion_content_row_descr">
+                                 <p class="lk_content_orders_accordion_content_row_descr_name">Арматура А240, 6мм,  34028-16</p>
+                                 <p class="lk_content_orders_accordion_content_row_descr_price">8 000 ₽<span>/шт</span></p>
+                              </div>
+                           </div>
+                           <div class="lk_content_orders_accordion_content_row">
+                              <div class="lk_content_orders_accordion_content_row_pic">
+                                 <img src="img/food-1.png" alt=" ">
+                              </div>
+                              <div class="lk_content_orders_accordion_content_row_descr">
+                                 <p class="lk_content_orders_accordion_content_row_descr_name">Арматура А240, 6мм,  34028-16</p>
+                                 <p class="lk_content_orders_accordion_content_row_descr_price">8 000 ₽<span>/шт</span></p>
+                              </div>
+                           </div>
+                           <div class="lk_content_orders_accordion_content_row">
+                              <div class="lk_content_orders_accordion_content_row_pic">
+                                 <img src="img/food-1.png" alt=" ">
+                              </div>
+                              <div class="lk_content_orders_accordion_content_row_descr">
+                                 <p class="lk_content_orders_accordion_content_row_descr_name">Арматура А240, 6мм,  34028-16</p>
+                                 <p class="lk_content_orders_accordion_content_row_descr_price">8 000 ₽<span>/шт</span></p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="lk_content_orders_accordion_content_bottom">
+                           <p class="lk_content_orders_accordion_content_bottom_sum">Итого: <span class="lk_content_orders_accordion_content_bottom_sum_amount">24 000</span> ₽</p>
+                           <p class="lk_content_orders_accordion_content_bottom_repeat">Повторить заказ</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="lk_content_orders_accordion">
+                  <div class="lk_content_orders_accordion_label">
+                     <p>Заявка от 15.09.2023</p>
+                  </div>
+                  <div class="lk_content_orders_accordion_item">
+                     <div class="lk_content_orders_accordion_header">
+                        <p class="lk_content_orders_accordion_header_type"><span class="lk_order lk_order_payed"></span>Оплачено</p>
+                        <p class="lk_content_orders_accordion_header_more">Подробнее</p>
+                     </div>
+                     <div class="lk_content_orders_accordion_content">
+                        <div class="lk_content_orders_accordion_content_rows">
+                           <div class="lk_content_orders_accordion_content_row">
+                              <div class="lk_content_orders_accordion_content_row_pic">
+                                 <img src="img/food-1.png" alt=" ">
+                              </div>
+                              <div class="lk_content_orders_accordion_content_row_descr">
+                                 <p class="lk_content_orders_accordion_content_row_descr_name">Арматура А240, 6мм,  34028-16</p>
+                                 <p class="lk_content_orders_accordion_content_row_descr_price">8 000 ₽<span>/шт</span></p>
+                              </div>
+                           </div>
+                           <div class="lk_content_orders_accordion_content_row">
+                              <div class="lk_content_orders_accordion_content_row_pic">
+                                 <img src="img/food-1.png" alt=" ">
+                              </div>
+                              <div class="lk_content_orders_accordion_content_row_descr">
+                                 <p class="lk_content_orders_accordion_content_row_descr_name">Арматура А240, 6мм,  34028-16</p>
+                                 <p class="lk_content_orders_accordion_content_row_descr_price">8 000 ₽<span>/шт</span></p>
+                              </div>
+                           </div>
+                           <div class="lk_content_orders_accordion_content_row">
+                              <div class="lk_content_orders_accordion_content_row_pic">
+                                 <img src="img/food-1.png" alt=" ">
+                              </div>
+                              <div class="lk_content_orders_accordion_content_row_descr">
+                                 <p class="lk_content_orders_accordion_content_row_descr_name">Арматура А240, 6мм,  34028-16</p>
+                                 <p class="lk_content_orders_accordion_content_row_descr_price">8 000 ₽<span>/шт</span></p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="lk_content_orders_accordion_content_bottom">
+                           <p class="lk_content_orders_accordion_content_bottom_sum">Итого: <span class="lk_content_orders_accordion_content_bottom_sum_amount">24 000</span> ₽</p>
+                           <p class="lk_content_orders_accordion_content_bottom_repeat">Повторить заказ</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="lk_content_orders_accordion">
+                  <div class="lk_content_orders_accordion_label">
+                     <p>Заявка от 15.09.2023</p>
+                  </div>
+                  <div class="lk_content_orders_accordion_item">
+                     <div class="lk_content_orders_accordion_header">
+                        <p class="lk_content_orders_accordion_header_type"><span class="lk_order lk_order_payed"></span>Оплачено</p>
+                        <p class="lk_content_orders_accordion_header_more">Подробнее</p>
+                     </div>
+                     <div class="lk_content_orders_accordion_content">
+                        <div class="lk_content_orders_accordion_content_rows">
+                           <div class="lk_content_orders_accordion_content_row">
+                              <div class="lk_content_orders_accordion_content_row_pic">
+                                 <img src="img/food-1.png" alt=" ">
+                              </div>
+                              <div class="lk_content_orders_accordion_content_row_descr">
+                                 <p class="lk_content_orders_accordion_content_row_descr_name">Арматура А240, 6мм,  34028-16</p>
+                                 <p class="lk_content_orders_accordion_content_row_descr_price">8 000 ₽<span>/шт</span></p>
+                              </div>
+                           </div>
+                           <div class="lk_content_orders_accordion_content_row">
+                              <div class="lk_content_orders_accordion_content_row_pic">
+                                 <img src="img/food-1.png" alt=" ">
+                              </div>
+                              <div class="lk_content_orders_accordion_content_row_descr">
+                                 <p class="lk_content_orders_accordion_content_row_descr_name">Арматура А240, 6мм,  34028-16</p>
+                                 <p class="lk_content_orders_accordion_content_row_descr_price">8 000 ₽<span>/шт</span></p>
+                              </div>
+                           </div>
+                           <div class="lk_content_orders_accordion_content_row">
+                              <div class="lk_content_orders_accordion_content_row_pic">
+                                 <img src="img/food-1.png" alt=" ">
+                              </div>
+                              <div class="lk_content_orders_accordion_content_row_descr">
+                                 <p class="lk_content_orders_accordion_content_row_descr_name">Арматура А240, 6мм,  34028-16</p>
+                                 <p class="lk_content_orders_accordion_content_row_descr_price">8 000 ₽<span>/шт</span></p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="lk_content_orders_accordion_content_bottom">
+                           <p class="lk_content_orders_accordion_content_bottom_sum">Итого: <span class="lk_content_orders_accordion_content_bottom_sum_amount">24 000</span> ₽</p>
+                           <p class="lk_content_orders_accordion_content_bottom_repeat">Повторить заказ</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </div>
       </div>
    </section>
-   <!-- ----end breadcrumbs---- -->
-   <!-- ----start payment---- -->
-   <section class="payment">
-      <div class="payment_wrap wrap">
-         <div class="payment_title">
-            <h2>Оплачивайте удобным вам способом</h2>
-         </div>
-         <div class="payment_content">
-            <div class="payment_info">
-               <div class="payment_info_list">
-                  <div class="payment_info_list_item">
-                     <div class="payment_info_list_item_pic">
-                        <img src="img/pc1.svg" alt="  ">
-                     </div>
-                     <div class="payment_info_list_item_content">
-                        <div class="payment_info_list_item_title">
-                           <p>Наличный расчет</p>
-                        </div>
-                        <div class="payment_info_list_item_text">
-                           <p>Вы можете оплатить покупку наличными в офисе продаж или водителю при доставке товара.</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="payment_info_list_item">
-                     <div class="payment_info_list_item_pic">
-                        <img src="img/pc2.svg" alt="  ">
-                     </div>
-                     <div class="payment_info_list_item_content">
-                        <div class="payment_info_list_item_title">
-                           <p>Пластиковые карты</p>
-                        </div>
-                        <div class="payment_info_list_item_text">
-                           <p>Безналичная оплата банковской картой в офисе продаж.</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="payment_info_list_item">
-                     <div class="payment_info_list_item_pic">
-                        <img src="img/pc3.svg" alt="  ">
-                     </div>
-                     <div class="payment_info_list_item_content">
-                        <div class="payment_info_list_item_title">
-                           <p>Безналичный расчет</p>
-                        </div>
-                        <div class="payment_info_list_item_text">
-                           <p>Оплачивайте заказ по реквизитам счета в офисе банка или через личный кабинет банка. Комиссию за перевод уточняйте в банке.</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="payment_info_list_item">
-                     <div class="payment_info_list_item_pic">
-                        <img src="img/pc4.svg" alt="  ">
-                     </div>
-                     <div class="payment_info_list_item_content">
-                        <div class="payment_info_list_item_title">
-                           <p>Онлайн оплата на сайте</p>
-                        </div>
-                        <div class="payment_info_list_item_text">
-                           <p>Оплачивайте заказ прямо на сайте, после наш менеджер свяжется с вами для подтверждения заказа. </p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="payment_info_btns">
-                  <button class="btn payment_info_btn"><span><img src="img/cart_white.svg" alt=" "></span>&nbsp;&nbsp;&nbsp;перейти в корзину</button>
-               </div>
-            </div>
-            <div class="payment_detail">
-               <div class="payment_detail_content">
-                  <div class="payment_detaill_content_title">
-                     <p>узнать подробности</p>
-                  </div>
-                  <div class="payment_detail_content_subtitle">
-                     <p>Проведем консультацию, отправим актуальный прайс и сделаем предварительный расчет доставки</p>
-                  </div>
-                  <form class="payment_detail_form">
-                     <div class="payment_detail_form_name">
-                        <input type="text" name="name" id="name" class="name" placeholder="Ваше имя" required>
-                     </div>
-                     <div class="payment_detail_form_tel">
-                        <input type="tel" name="tel" id="tel" class="tel" placeholder="+7 900 000-00-00" required>
-                     </div>
-                     <div class="payment_detail_form_btns">
-                        <button class="btn payment_detail_form_btn">получить консультацию</button>
-                     </div>
-                  </form>
-                  <div class="payment_detail_pd">
-                     <p>Заполняя форму, вы соглашаетесь 
-                        с<a href="#">&nbsp;политикой конфиденциальности</a>  сайта</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- ----end payment---- -->
+   <!-- ----end lk---- -->
    <!-- ----start footer---- -->
    <footer class="footer">
       <div class="footer_wrap wrap">
@@ -309,6 +369,7 @@
       </div>
    </footer>
    <!-- ----end footer---- -->
+   <script src="js/lk_accordion.js"></script>
    <script src="js/script.js"></script>
 </body>
 </html>
